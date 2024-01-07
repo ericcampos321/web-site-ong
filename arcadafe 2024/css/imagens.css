@@ -1,0 +1,26 @@
+.section1{
+    background-image: url(../img/carvao.jpg);
+}
+
+.cycle-slideshow{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+
+
+}
+
+.cycle-slideshow > img{
+    width: 1400px;
+    height: 800px;
+    z-index: 0;
+}
+
+.imagens2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

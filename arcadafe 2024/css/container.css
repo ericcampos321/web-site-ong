@@ -1,0 +1,46 @@
+
+
+.section1{
+    padding-top: 100px;
+    display: flex;
+    margin: auto;
+    max-width: 1400px;
+}
+
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.foto-vanessa > img{
+    animation: ladoSecao .5s ease-in-out forwards;
+    position: relative;
+    top:100px;
+    width: 500px;
+    height: 400px;
+    box-shadow: -10px 30px 20px #7D7C7C;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
+.balao1{
+    animation: sobeSecao .6s ease-in-out forwards;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    width: 600px;
+}
+
+.balao1 >h1 {
+    text-align: left;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.balao1 > p{
+    font-size: 20px;
+    text-align:left;
+    padding-top: 20px;
+}

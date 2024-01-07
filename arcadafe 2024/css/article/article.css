@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500&family=Nunito+Sans:ital,opsz,wght@1,6..12,300&family=Nunito:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Nunito:wght@800&family=Quicksand:wght@300&family=Roboto:ital,wght@0,100;0,300;1,900&family=Rubik+Doodle+Shadow&display=swap');
+
+
+
+.article{
+    background-color: #F1EFEF;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.ong{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.foto-ong > img{
+    animation: ladoSecao .5s ease-in-out forwards;
+    border-radius: 30%;
+    opacity: 0.6;
+    position: relative;
+    top: 10px;
+    width: 500px;
+
+}
+
+.foto-ong > img:hover{
+    opacity: 2.0;
+    transition: 2s;
+    box-shadow: -10px 30px 20px #7D7C7C;
+    border-radius: 50%;
+}
+
+.ong-conteudo{
+    animation: sobeSecao .6s ease-in-out forwards;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 540px;
+    margin: 50px;
+}
+
+.ong-conteudo > h1{
+    font-family: 'Amatic SC', sans-serif;
+    font-weight:700;
+    letter-spacing: 10px;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ong-conteudo > p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}

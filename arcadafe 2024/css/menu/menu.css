@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Nunito+Sans:opsz,wght@6..12,200&family=Outfit:wght@100&family=Rubik+Maps&display=swap');
+
+.menu{
+    display: flex;
+
+}
+
+#menu-div{
+    display: flex;
+}
+
+.menu > li{
+    padding-right: 20px;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Nunito Sans';
+    border-radius: 10px;
+}
+
+
+#logo{
+    letter-spacing: 5px;
+    font-family: 'Outfit';
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.span{
+    color: red;
+}
+
+.span:hover{
+    box-shadow: 10px 20px 30px #ffffff;
+}
+
+.menu > li > a:hover{
+    background: linear-gradient(
+    50deg,
+    rgba(255, 255, 255, 0.4) 12%,
+    rgba(255, 255, 255, 0.1) 77%
+    
+  );
+  background-blend-mode:hard-light ;
+  box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+    transition: 2s;
+}

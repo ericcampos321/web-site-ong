@@ -1,0 +1,34 @@
+@media(max-width: 950px){
+
+.container-voluntario{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.foto-voluntario > img{
+    width: 100%;
+}
+
+.texto-voluntario{
+    padding: 10px;
+}
+
+.texto-voluntario > span{
+    letter-spacing: 7px;
+    font-size: 15px;
+}
+
+.texto-voluntario > h1{
+    padding: 10px;
+    font-size: 30px;
+    line-height:30px;
+}
+
+.texto-voluntario > p{
+    text-align:left;
+}
+
+}

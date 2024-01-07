@@ -1,0 +1,42 @@
+@media(max-width: 766px){
+
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .foto-julio > img{
+        animation: ladoSecao .5s ease-in-out forwards;
+        position: relative;
+        top:0px;
+        left: 0;
+        width: 100%;
+        box-shadow: -10px 30px 20px #7D7C7C;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+    
+    
+    .balao2{
+        animation: sobeSecao .6s ease-in-out forwards;
+        position:relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+        margin: 15px;
+    }
+    
+    .balao2 >h1 {
+        text-align: left;
+        font-size: 30px;
+        padding: 20px;
+    }
+    
+    .balao2 > p{
+        font-size: 20px;
+        text-align:left;
+        padding-top: 20px;
+    }
+    
+}

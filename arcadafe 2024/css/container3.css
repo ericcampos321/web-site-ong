@@ -1,0 +1,45 @@
+.section3{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1400px;
+}
+
+.container3{
+    display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+}
+
+.foto-andriely > img{
+    animation: ladoSecao .5s ease-in-out forwards;
+    position: relative;
+    top: 200px;
+    width: 500px;
+    height: 400px;
+    box-shadow: -10px 30px 20px #7D7C7C;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
+.balao3{
+    animation: sobeSecao .6s ease-in-out forwards;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    width: 600px;
+    padding-bottom: 30px;
+}
+
+.balao3 >h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.balao3 > p{
+    padding-top: 20px;
+    font-size: 20px;
+    text-align:left;
+}

@@ -1,0 +1,133 @@
+@media(max-width: 950px){
+
+    
+    .imagens2{
+        display: flex;
+        position: relative;
+        top: 42px;
+        left: 0;
+    }
+
+    .cycle-slideshow > img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .foto-ong > img{
+        width: 100%;
+        position: relative;
+        top:80px;
+    }
+
+    .ong-conteudo{
+        position: relative;
+        top:50px;
+        width: 100%;
+        margin: 15px;
+
+    }
+
+    .ong-conteudo > p{
+        text-align:left;
+    }
+
+    .row{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        padding: 0;
+        margin: 5px;
+        justify-content:left;
+    }
+
+    .col-md-7{
+        display: block;
+    }
+
+    .col-md-7 > h4{
+        font-size: 20px;
+        color: rgb(126, 39, 39);
+    }
+
+    .col-md-6 > img{
+        width: 20%;
+    }
+
+    .col-md-8 > p {
+        text-align: center;
+        padding: 5px;
+    }
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Nunito+Sans:opsz,wght@6..12,200&family=Outfit:wght@100&family=Rubik+Maps&display=swap');
+
+
+
+    #btn-mobile{
+        background-color: rgb(0, 0, 0);
+        color: white;
+        position: relative;
+        left: 10px;
+        padding: 8px 10px;
+        border-radius: 20px;
+        font-size: 24px;
+        display:flex;
+        cursor: pointer;
+
+    }
+
+        
+   
+
+    #btn-mobile:hover{
+        background-color: rgba(255, 255, 255, 0.185);
+        color: rgb(204, 76, 76);
+        transition: 1s;
+ 
+   }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Nunito+Sans:opsz,wght@6..12,200&family=Outfit:wght@100&family=Rubik+Maps&display=swap');
+
+
+
+.menu{
+    background-color: #191717;
+    display:none;
+    position: absolute;
+    top:42px;
+    right: 0px;
+    width: 100%;
+    height: 100vh;
+
+
+
+}
+
+.menu > li{
+    padding: 1px;
+    display:block;
+    border-bottom: 1px solid rgba(54, 52, 52, 0.178);
+
+    
+}
+
+.menu > li > a{
+    padding: px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 0px;
+    font-family: 'Nunito Sans';
+}
+
+
+.menu > li > a:hover{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.185);
+    transition: 2s;
+}
+
+#menu-div.active .menu{
+    display: inline-block;
+}
+}

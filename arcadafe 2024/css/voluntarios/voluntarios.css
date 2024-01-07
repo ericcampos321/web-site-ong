@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500&family=Nunito+Sans:ital,opsz,wght@1,6..12,300&family=Nunito:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Quicksand:wght@300&display=swap');
+
+
+.container-voluntario{
+    background-color: #61677a3a;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.foto-voluntario > img {
+    border-radius: 50% 10% 50% 10% ;
+    width: 900px;
+    box-shadow: -10px 30px 20px #7D7C7C;
+}
+
+.texto-voluntario{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    padding: 40px;
+}
+
+.texto-voluntario > p{
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+.texto-voluntario > h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    line-height: 52px;
+    font-weight: 700;
+}
+
+.texto-voluntario > span{
+    letter-spacing: 8px;
+    font-size:28px;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: bold;
+    color: rgb(177, 70, 132);
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(177, 70, 132);
+    padding: 10px;
+    position: relative;
+    left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(177, 70, 132);
+}
+
+.btn-div:hover{
+    background-color: #ffffff;
+    transition: 1s;
+}
+
+.btn-div > a:hover{
+    color: black;
+    font-size: 18px;
+}
+
+.btn-div > a{
+    font-size: 18px;
+    color: white;
+
+}
